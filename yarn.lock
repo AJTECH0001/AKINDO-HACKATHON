@@ -5287,6 +5287,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"components@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "components@npm:0.1.0"
+  checksum: d9b326a2dc3f095f34bc3723c89c76b3152aee023ae0ac409c8372452008c0783afbcdd328e4665d8ed0affff1287a597cc517179f3f04d2c782f720082d15bc
+  languageName: node
+  linkType: hard
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -12147,6 +12154,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "se-2@workspace:."
   dependencies:
+    components: ^0.1.0
     husky: ~8.0.3
     lint-staged: ~13.2.2
     next: ~14.0.4
