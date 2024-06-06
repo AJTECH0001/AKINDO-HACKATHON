@@ -7,67 +7,17 @@ const Home = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-poppins items-center justify-start mx-auto w-full">
         <div className="bg-gradient1  flex flex-col items-center justify-start p-[9px] w-full">
-          <header className="flex md:flex-col flex-row md:gap-5 items-center justify-center md:px-5 w-full">
-            <Text
-              className="mb-3 md:mt-0 mt-[19px] sm:text-[21px] md:text-[23px] text-[25px] text-white-A700"
-              size="txtPoppinsBold25"
-            >
-              <span className="text-white-A700 font-poppins text-left font-bold">Psycho</span>
-              <span className="text-deep_purple-A100 font-poppins text-left font-bold">Art</span>
-            </Text>
-            <div className="bg-white-A700_19 flex md:flex-1 flex-col items-start justify-start md:ml-[0] ml-[69px] md:mt-0 my-2.5 p-[9px] rounded-[10px] w-[33%] md:w-full">
-              <div className="flex flex-row gap-2.5 items-center justify-center w-auto">
-                <Img className="h-5 w-5" src="images/img_rewind.svg" alt="rewind" />
-                <Text className="text-white-A700_7f text-xl w-auto" size="txtPoppinsMedium20">
-                  Search items and collections
-                </Text>
-              </div>
-            </div>
-            <ul className="flex sm:flex-1 sm:flex-col flex-row gap-10 sm:hidden items-center justify-center md:ml-[0] ml-[70px] p-2.5 w-auto sm:w-full common-row-list">
-              <li>
-                <a href="javascript:" className="text-white-A700 text-xl">
-                  <Text size="txtPoppinsMedium20WhiteA700">Collections</Text>
-                </a>
-              </li>
-              <li>
-                <a href="javascript:" className="text-white-A700 text-xl">
-                  <Text size="txtPoppinsMedium20WhiteA700">Feature</Text>
-                </a>
-              </li>
-              <li>
-                <a href="javascript:" className="text-white-A700 text-xl">
-                  <Text size="txtPoppinsMedium20WhiteA700">FAQ</Text>
-                </a>
-              </li>
-              <li>
-                <a href="javascript:">
-                  <Button
-                    className="cursor-pointer font-medium leading-[normal] text-center text-xl"
-                    color="deep_purple_A100_deep_purple_A700"
-                  >
-                    Select Wallet
-                  </Button>
-                </a>
-              </li>
-            </ul>
-          </header>
-          <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1197px] mt-[100px] mx-auto md:px-5 w-full">
+          <div className="flex gap-10   items-center justify-between max-w-[1197px] mt-[100px] mx-auto  w-full">
             <div className="flex md:flex-1 flex-col gap-[39px] items-center justify-start w-[41%] md:w-full">
               <div className="flex flex-col items-start justify-start w-full">
-                <Text
-                  className="leading-[120.00%] sm:text-[40px] md:text-[46px] text-[50px] text-white-A700 w-full"
-                  size="txtPoppinsBold50"
-                >
+                <Text className="leading-[120.00%]  text-[50px] text-white-A700 w-full" size="txtPoppinsBold50">
                   Create, Sell & Collect Your Own Creative NFT
                 </Text>
                 <Text className="leading-[180.00%] mt-2.5 text-white-A700_7f text-xl w-full" size="txtPoppinsMedium20">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit.
                 </Text>
-                <div className="flex flex-row gap-5 items-center justify-start mt-[30px] w-[61%] md:w-full">
-                  <Button
-                    className="cursor-pointer font-medium leading-[normal] min-w-[161px] text-center text-xl"
-                    color="deep_purple_A100_deep_purple_A700"
-                  >
+                <div className="flex flex-row gap-5 items-center justify-start mt-[30px] w-[61%] ">
+                  <Button className="cursor-pointer font-medium leading-[normal] bg-purple-500 min-w-[161px] text-center text-xl">
                     Explore Now
                   </Button>
                   <Button
@@ -81,15 +31,15 @@ const Home = () => {
               </div>
               <div className="flex flex-row items-center justify-between w-full">
                 <div className="flex flex-col items-center justify-start">
-                  <Text className="text-3xl sm:text-[26px] md:text-[28px] text-white-A700" size="txtPoppinsBold30">
+                  <Text className="text-3xl  text-white-A700" size="txtPoppinsBold30">
                     37k+
                   </Text>
                   <Text className="text-white-A700_7f text-xl" size="txtPoppinsMedium20">
                     Artworks
                   </Text>
                 </div>
-                <div className="flex flex-col h-[75px] items-center justify-start w-[75px]">
-                  <Text className="text-3xl sm:text-[26px] md:text-[28px] text-white-A700" size="txtPoppinsBold30">
+                <div className="flex flex-col items-center justify-start">
+                  <Text className="text-3xl  text-white-A700" size="txtPoppinsBold30">
                     20k+
                   </Text>
                   <Text className="text-white-A700_7f text-xl" size="txtPoppinsMedium20">
@@ -97,62 +47,62 @@ const Home = () => {
                   </Text>
                 </div>
                 <div className="flex flex-col items-center justify-start">
-                  <Text className="text-3xl sm:text-[26px] md:text-[28px] text-white-A700" size="txtPoppinsBold30">
+                  <Text className="text-3xl  text-white-A700" size="txtPoppinsBold30">
                     99k+
                   </Text>
                   <Text className="text-white-A700_7f text-xl" size="txtPoppinsMedium20">
-                    Aucations
+                    Aucation
                   </Text>
                 </div>
               </div>
             </div>
-            <div className="flex md:flex-1 flex-col items-center justify-start w-1/2 md:w-full">
-              <div className="flex sm:flex-col flex-row gap-[15px] items-center justify-between w-full">
-                <List className="sm:flex-col flex-row gap-[15px] grid grid-cols-2" orientation="horizontal">
+            <div className="flex  flex-col items-center justify-start w-1/2 ">
+              <div className="flex  flex-row gap-[15px] items-center justify-between w-full">
+                <List className=" flex-row gap-[15px] grid grid-cols-2" orientation="horizontal">
                   <div className="flex flex-col gap-[15px] items-center justify-start sm:ml-[0] w-full">
                     <Img
-                      className="h-[140px] md:h-auto object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
+                      className="h-[140px]  object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
                       src="images/img_rectangle15.png"
                       alt="rectangleFifteen"
                     />
                     <Img
-                      className="h-[220px] md:h-auto object-cover rounded-[10px] w-full"
+                      className="h-[220px]  object-cover rounded-[10px] w-full"
                       src="images/img_rectangle17.png"
                       alt="rectangleSeventeen"
                     />
                     <Img
-                      className="h-[127px] md:h-auto object-cover rounded-tl-[10px] rounded-tr-[10px] w-full"
+                      className="h-[127px]  object-cover rounded-tl-[10px] rounded-tr-[10px] w-full"
                       src="images/img_rectangle18.png"
                       alt="rectangleEighteen"
                     />
                   </div>
                   <div className="flex flex-col gap-[15px] items-start justify-start sm:ml-[0] w-full">
                     <Img
-                      className="h-[108px] md:h-auto object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
+                      className="h-[108px]  object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
                       src="images/img_rectangle16.png"
                       alt="rectangleSixteen"
                     />
                     <Img
-                      className="h-[220px] md:h-auto object-cover rounded-[10px] w-full"
+                      className="h-[220px]  object-cover rounded-[10px] w-full"
                       src="images/img_rectangle19.png"
                       alt="rectangleNineteen"
                     />
                     <Img
-                      className="h-[159px] md:h-auto object-cover rounded-[10px] w-[96%]"
+                      className="h-[159px]  object-cover rounded-[10px] w-[96%]"
                       src="images/img_rectangle20.png"
                       alt="rectangleTwenty"
                     />
                   </div>
                 </List>
                 <Img
-                  className="h-[412px] md:h-auto object-cover rounded-[10px]"
+                  className="h-[412px]  object-cover rounded-[10px]"
                   src="images/img_rectangle21.png"
                   alt="rectangleTwentyOne"
                 />
               </div>
             </div>
           </div>
-          <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1196px] mt-[150px] mx-auto md:px-5 w-full">
+          <div className="flex  flex-row  items-center justify-between max-w-[1196px] mt-[150px] mx-auto  w-full">
             <Img className="h-[60px]" src="images/img_binancelogologo.svg" alt="binancelogologo" />
             <Img className="h-[60px]" src="images/img_ethereumlogo.svg" alt="ethereumlogo" />
             <Img className="h-[60px]" src="images/img_binancelogologo.svg" alt="logoofblockchai" />
@@ -168,8 +118,8 @@ const Home = () => {
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </Text>
-              <div className="flex md:flex-col flex-row font-poppins md:gap-10 items-center justify-between mt-[30px] w-full">
-                <div className="flex md:flex-1 flex-col items-center justify-start w-[41%] md:w-full">
+              <div className="flex  gap-5 flex-row font-poppins items-center justify-between mt-[30px] w-full">
+                <div className="flex  flex-col items-center justify-start w-[41%] ">
                   <Img
                     className="h-[600px] md:h-auto object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
                     src="images/img_julianhochgesa.png"
@@ -190,19 +140,16 @@ const Home = () => {
                     aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
                     auctor purus luctus enim egestas, ac scelerisque ante pulvinar.{" "}
                   </Text>
-                  <Button
-                    className="cursor-pointer font-medium leading-[normal] min-w-[154px] mt-[30px] text-center text-xl"
-                    color="deep_purple_A100_deep_purple_A700"
-                  >
+                  <Button className="cursor-pointer bg-purple-500 font-medium leading-[normal] min-w-[154px] mt-[30px] text-center text-xl">
                     Show more
                   </Button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-[30px] items-center justify-start max-w-[1198px] mt-[198px] mx-auto md:px-5 w-full">
+          <div className="flex flex-col gap-[30px] items-center justify-start max-w-[1198px] mt-[198px] mx-auto  w-full">
             <div className="flex flex-col gap-[11px] items-center justify-start">
-              <Text className="sm:text-4xl md:text-[38px] text-[40px] text-white-A700" size="txtPoppinsBold40">
+              <Text className=" text-[40px] text-white-A700" size="txtPoppinsBold40">
                 Colleaction
               </Text>
               <Text className="text-center text-white-A700_7f text-xl w-full" size="txtPoppinsMedium20">
@@ -210,39 +157,23 @@ const Home = () => {
               </Text>
             </div>
             <div className="flex flex-col gap-[30px] items-center justify-start w-full">
-              <div className="gap-[15px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
-                <Button
-                  className="cursor-pointer flex-1 font-medium leading-[normal] text-center text-xl w-full"
-                  color="white_A700_19"
-                  size="xs"
-                  variant="fill"
-                >
+              <div className="gap-[15px] grid  grid-cols-4 items-center justify-between w-full">
+                <Button className="cursor-pointer flex-1 font-medium leading-[normal] text-center text-xl w-full">
                   Art
                 </Button>
-                <Text
-                  className="bg-gradient  flex-1 h-10 pb-0.5 pt-[7px] sm:px-5 px-[35px] rounded-[10px] text-white-A700 text-xl w-full"
-                  size="txtPoppinsMedium20WhiteA700"
-                >
+                <Button className="bg-gradient  flex-1 h-10 pb-0.5 pt-[7px] sm:px-5 px-[35px] rounded-[10px] text-white-A700 text-xl w-full">
                   Sport
-                </Text>
-                <Text
-                  className="bg-white-A700_19 flex-1 h-10 justify-center pb-0.5 pt-[7px] sm:px-5 px-[35px] rounded-[10px] text-white-A700 text-xl w-full"
-                  size="txtPoppinsMedium20WhiteA700"
-                >
+                </Button>
+                <Button className="bg-white-A700_19 flex-1 h-10 justify-center pb-0.5 pt-[7px] sm:px-5 px-[35px] rounded-[10px] text-white-A700 text-xl w-full">
                   Photograpy
-                </Text>
-                <Button
-                  className="cursor-pointer flex-1 font-medium leading-[normal] text-center text-xl w-full"
-                  color="white_A700_19"
-                  size="xs"
-                  variant="fill"
-                >
+                </Button>
+                <Button className="cursor-pointer flex-1 font-medium leading-[normal] text-center text-xl w-full">
                   Pattern
                 </Button>
               </div>
               <div className="flex flex-col items-center justify-start w-full">
                 <div className="flex flex-col items-center justify-start w-full">
-                  <div className="md:gap-5 gap-[15px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
+                  <div className=" gap-[15px] grid  grid-cols-3 justify-center min-h-[auto] w-full">
                     <div className="bg-white-A700_19 flex flex-1 flex-col items-center justify-start p-[26px] sm:px-5 rounded-[10px] shadow-bs w-full">
                       <div className="flex flex-col items-center justify-start w-full">
                         <Img
@@ -573,19 +504,16 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-[30px] items-center justify-start max-w-[1197px] mt-[199px] mx-auto md:px-5 w-full">
+          <div className="flex flex-col gap-[30px] items-center justify-start max-w-[1197px] mt-[199px] mx-auto  w-full">
             <div className="flex flex-col gap-2.5 items-center justify-start">
-              <Text className="sm:text-4xl md:text-[38px] text-[40px] text-white-A700" size="txtPoppinsBold40">
+              <Text className=" text-[40px] text-white-A700" size="txtPoppinsBold40">
                 Featured Artworks
               </Text>
               <Text className="text-center text-white-A700_7f text-xl w-full" size="txtPoppinsMedium20">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </Text>
             </div>
-            <List
-              className="sm:flex-col flex-row gap-[15px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-full"
-              orientation="horizontal"
-            >
+            <List className=" flex-row gap-[15px] grid  grid-cols-3 justify-center w-full" orientation="horizontal">
               <div className="bg-white-A700_19 flex flex-1 flex-col items-center justify-start p-[26px] sm:px-5 rounded-[10px] shadow-bs w-full">
                 <div className="flex flex-col items-center justify-start w-full">
                   <Img
@@ -706,10 +634,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </Text>
             </div>
-            <List
-              className="sm:flex-col flex-row gap-[15px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center w-full"
-              orientation="horizontal"
-            >
+            <List className=" flex-row gap-[15px] grid  grid-cols-3 justify-center w-full" orientation="horizontal">
               <div className="bg-white-A700_19 flex flex-1 flex-col items-center justify-start pb-[42px] rounded-[10px] shadow-bs w-full">
                 <div className="flex flex-col relative w-full">
                   <div className="flex flex-col items-center justify-start mx-auto w-full">
@@ -779,23 +704,18 @@ const Home = () => {
               </div>
               <div className="bg-white-A700_19 flex flex-1 flex-col items-center justify-start pb-[42px] rounded-[10px] shadow-bs w-full">
                 <div className="flex flex-col relative w-full">
-                  <div className="h-[261px] mx-auto w-full">
+                  <div className="flex flex-col items-center justify-start mx-auto w-full">
                     <Img
-                      className="h-[261px] m-auto object-cover rounded-[10px] w-full"
-                      src="images/img_dancristianpa.png"
-                      alt="dancristianpa"
-                    />
-                    <Img
-                      className="absolute h-[261px] inset-[0] justify-center m-auto object-cover rounded-[10px] w-full"
+                      className="h-[261px] md:h-auto object-cover rounded-bl-[10px] rounded-br-[10px] w-full"
                       src="images/img_zak7wbfshwqdlkunsplash.png"
-                      alt="zak7wbfshwqdlku"
+                      alt="dancristianpa"
                     />
                   </div>
                   <div className="flex flex-col h-[99px] items-center justify-start mt-[-45px] mx-auto w-[99px] z-[1]">
                     <Img
                       className="h-[99px] md:h-auto rounded-[50%] w-[99px]"
                       src="images/img_stefanociociol.png"
-                      alt="stefanociociol"
+                      alt="aionyhaust3tl"
                     />
                   </div>
                 </div>
@@ -835,10 +755,10 @@ const Home = () => {
                 </Text>
               </div>
               <List
-                className="sm:flex-col flex-row gap-[15px] grid md:grid-cols-1 grid-cols-2 justify-center w-full"
+                className=" flex-row gap-[15px] grid  grid-cols-2 justify-center w-full"
                 orientation="horizontal"
               >
-                <div className="flex sm:flex-1 flex-col gap-[50px] items-start justify-start w-auto sm:w-full">
+                <div className="flex  flex-col gap-[50px] items-start justify-start w-auto ">
                   <div className="flex flex-col items-center justify-start w-full">
                     <div className="flex flex-col gap-[18px] items-center justify-start w-full">
                       <div className="flex flex-row sm:gap-10 items-start justify-between w-full">
@@ -923,7 +843,7 @@ const Home = () => {
               </List>
             </div>
           </div>
-          <div className="bg-gradient  flex flex-col gap-5 items-center justify-start max-w-[1197px] mt-[199px] mx-auto p-[50px] md:px-5 rounded-[10px] w-full">
+          <div className="bg-purple-500  flex flex-col gap-5 items-center justify-start max-w-[1197px] mt-[199px] mx-auto p-[50px] md:px-5 rounded-[10px] w-full">
             <Text
               className="sm:text-[40px] md:text-[46px] text-[50px] text-center text-white-A700"
               size="txtPoppinsBold50"
@@ -935,16 +855,15 @@ const Home = () => {
               </>
             </Text>
             <Button
-              className="cursor-pointer font-medium leading-[normal] min-w-[155px] text-center text-xl"
-              color="white_A700_7f"
-              variant="fill"
+              className="cursor-pointer bg-purple-200 font-medium leading-[normal] min-w-[155px] text-center text-xl"
+             
             >
               Get Started
             </Button>
           </div>
-          <div className="flex md:flex-col flex-row md:gap-10 items-start justify-between max-w-[1197px] mt-[199px] mx-auto md:px-5 w-full">
-            <div className="flex flex-col gap-[17px] items-start justify-start md:mt-0 mt-0.5">
-              <Text className="text-center text-white-A700 text-xl" size="txtPoppinsBold20">
+          <div className="flex  flex-row  items-start justify-between max-w-[1197px] mt-[199px] mx-auto  w-full">
+            <div className="flex flex-col gap-[17px] items-start justify-start  mt-0.5">
+              <Text className="text-center text-white-A700 text-xl" >
                 <span className="text-white-A700 font-poppins font-bold">Psycho</span>
                 <span className="text-deep_purple-A100 font-poppins font-bold">Art</span>
               </Text>
